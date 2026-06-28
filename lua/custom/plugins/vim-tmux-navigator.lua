@@ -1,4 +1,6 @@
--- nvim-tmux-navigator configuration
+vim.pack.add {
+  'https://github.com/christoomey/vim-tmux-navigator',
+}
 
 -- Define the keybindings for navigation
 vim.keymap.set('n', '<C-h>', '<cmd>TmuxNavigateLeft<cr>', { silent = true })
